@@ -25,6 +25,11 @@ h1 {
     border: blueviolet 0.5px solid;
 }
 
+.QuoteBodyDi p {
+    padding: 20px 0px;
+    font-size: calc(15px + 0.5vw);
+    font-style: italic;
+}
 
 .SubmitBTN {
     background-color: #00bafa;
