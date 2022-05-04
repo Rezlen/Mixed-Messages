@@ -21,8 +21,10 @@ let QuoteBodyDiv= [
     "And whatsoever ye do, do it heartily, as to the Lord, and not unto men; Knowing that of the Lord ye shall receive the reward of the inheritance: for ye serve the Lord Christ. - Colossians 3:23-24",
 ]
 
+
 function rotateQuoteBodyDiv() {
-    document.getElementById('QuoteBodyDiv').style.opacity = 0;
+    document.getElementById('QuoteBodyDiv');
+
     setTimeout(function() {
         let rand1 = Math.floor(Math.random() * QuoteBodyDiv.length)
         let rand2 = Math.floor(Math.random() * QuoteBodyDiv.length)
@@ -40,8 +42,8 @@ function rotateQuoteBodyDiv() {
         document.getElementById('quote1').innerHTML = `"${quote1}"`
         document.getElementById('quote2').innerHTML = `"${quote2}"`
         document.getElementById('quote3').innerHTML = `"${quote3}"`
-        document.getElementById('QuoteBodyDiv').style.opacity = 1;    
-    }, 500)
+        document.getElementById('QuoteBodyDiv');    
+    }, 19)
 }
 
 rotateQuoteBodyDiv();
@@ -53,3 +55,15 @@ SubmitBTN.addEventListener('click', rotateQuoteBodyDiv)
  // console.log(`quote 2: ${quote2}`)
  // console.log(`quote 3: ${quote3}`)
 
+/*
+// test with smaller function & array
+//let QuoteBodyDiv = ['diamond', 'spade', 'heart', 'club'];
+
+// Write your code below
+let currentQuoteBodyDiv= '';
+ while (currentQuoteBodyDiv='') {
+   currentQuoteBodyDiv = QuoteBodyDiv[Math.floor(Math.random() * 19)];
+
+ console.log(currentQuoteBodyDiv);
+  };
+*/

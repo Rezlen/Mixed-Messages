@@ -7,9 +7,6 @@ body {
   
 }
 
-* {
-    border: red 0.25px dotted; 
-}
 
 h1 {
     text-align: center;
@@ -17,12 +14,12 @@ h1 {
 
 .QuoteBodyDiv {
     border-radius: 0.5rem;
-    /*font-weight: bold;*/
+    font-weight: bold;*/
     font-size: large;
     margin: 1rem;
-    color: rgb(11, 29, 44);
+    color: rgb(25, 36, 18);
     text-align: center;
-    border: rgb(195, 43, 226) 0.5px solid;
+    border: rgb(33, 21, 36) 0.5px solid;
 }
 
 p {
@@ -32,7 +29,7 @@ p {
     border: rgb(226, 141, 43) 0.1rem solid;
 }
 
-.SubmitBTN {
+#SubmitBTN {
     background-color: #00bafa;
     height: 4rem;
     width: 10rem;
@@ -45,7 +42,7 @@ p {
     cursor: pointer;
 }
 
-.SubmitBTN:hover {
+#SubmitBTN:hover {
     background-color: rgb(72, 37, 228);
 }
 
