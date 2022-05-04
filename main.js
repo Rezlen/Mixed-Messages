@@ -22,9 +22,9 @@ let QuoteBodyDiv= [
 ]
 
 
-
 function rotateQuoteBodyDiv() {
     document.getElementById('QuoteBodyDiv');
+
     setTimeout(function() {
         let rand1 = Math.floor(Math.random() * QuoteBodyDiv.length)
         let rand2 = Math.floor(Math.random() * QuoteBodyDiv.length)
@@ -54,6 +54,7 @@ SubmitBTN.addEventListener('click', rotateQuoteBodyDiv)
  // console.log(`quote 1: ${quote1}`)
  // console.log(`quote 2: ${quote2}`)
  // console.log(`quote 3: ${quote3}`)
+
 /*
 // test with smaller function & array
 //let QuoteBodyDiv = ['diamond', 'spade', 'heart', 'club'];
@@ -66,5 +67,3 @@ let currentQuoteBodyDiv= '';
  console.log(currentQuoteBodyDiv);
   };
 */
-
-  
