@@ -22,13 +22,14 @@ h1 {
     margin: 1rem;
     color: rgb(11, 29, 44);
     text-align: center;
-    border: blueviolet 0.5px solid;
+    border: rgb(195, 43, 226) 0.5px solid;
 }
 
-.QuoteBodyDi p {
-    padding: 20px 0px;
-    font-size: calc(15px + 0.5vw);
+p {
+    padding: 1rem 0rem;
+    font-size: 1rem;
     font-style: italic;
+    border: rgb(226, 141, 43) 0.1rem solid;
 }
 
 .SubmitBTN {
