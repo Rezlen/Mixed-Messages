@@ -17,10 +17,10 @@ h1 {
 
 .QuoteBodyDiv {
     border-radius: 0.5rem;
-    /*font-weight: bold;*/
+    font-weight: bold;*/
     font-size: large;
     margin: 1rem;
-    color: rgb(70, 151, 23);
+    color: rgb(25, 36, 18);
     text-align: center;
     border: rgb(33, 21, 36) 0.5px solid;
 }
@@ -45,7 +45,7 @@ p {
     cursor: pointer;
 }
 
-.SubmitBTN:hover {
+#SubmitBTN:hover {
     background-color: rgb(72, 37, 228);
 }
 
